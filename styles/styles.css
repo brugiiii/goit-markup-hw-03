@@ -31,9 +31,13 @@
   padding: 0px 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 
   /* outline: 2px solid tomato; */
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
 }
 
 /* body */
@@ -294,6 +298,7 @@ footer {
 .filter-list {
   display: flex;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .filter-list .item:not(:last-child) {
@@ -333,7 +338,10 @@ footer {
 }
 
 .works-list .item {
+  box-sizing: border-box;
   width: calc((100% - 60px) / 3);
+  background-color: var(--white-color);
+  border: 1px solid #eeeeee;
 }
 
 .works-list .item:not(:nth-child(3n)) {
