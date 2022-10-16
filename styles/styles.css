@@ -92,6 +92,10 @@ footer .logo {
 }
 
 /* header navigation and contact */
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
