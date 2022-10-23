@@ -152,6 +152,7 @@ header {
 }
 
 /* hero */
+
 .hero {
   background-color: var(--hero-footer-bg-color);
 
@@ -169,8 +170,8 @@ header {
   line-height: 1.36;
   text-transform: uppercase;
 
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: 0px auto 30px;
+  max-width: 696px;
 }
 
 .hero-button {
