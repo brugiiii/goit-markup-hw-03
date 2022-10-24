@@ -155,6 +155,12 @@ header {
 
 .hero {
   background-color: var(--hero-footer-bg-color);
+  background-image: url('../images/overlay.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  min-height: 600px;
 
   text-align: center;
   letter-spacing: 0.06em;
